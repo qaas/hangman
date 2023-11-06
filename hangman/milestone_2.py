@@ -4,4 +4,7 @@ word_list = ['apple', 'kiwi', 'pear', 'blueberry', 'banana']
 
 word = random.choice(word_list)
 
-print(word)
+guess = input('Enter a single letter: ')
+
+
+print(guess)
